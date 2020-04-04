@@ -1,0 +1,128 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASFAA Members</title>
+<meta name="Description" content="members of ASFAA, sports association." />
+<meta name="keywords" content="ASFAA membership, members, application form" />
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="common.css" rel="stylesheet" type="text/css">
+<link href="members.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<style>
+#navaleft li ul {display: none;}
+</style>
+<script>
+$(document).ready(function () {
+  var checkCookie = $.cookie("navleft-item");
+  if (checkCookie != "") {
+	$('#navaleft > li.lival > a:eq('+checkCookie+')').addClass('active').next().show();
+  }
+  $('#navaleft > li.lival > a').click(function(){
+      var navIndex = $('#navaleft > li.lival > a').index(this);
+	  $.cookie("navleft-item", navIndex);
+	  $('#navaleft li ul').slideUp();
+	   if ($(this).next().is(":visible")){
+		   $(this).next().slideUp();
+	   } else {
+	   $(this).next().slideToggle();
+	   }
+	   $('#navaleft li.lival a').removeClass('active');
+	   $(this).addClass('active');
+  });
+});
+</script>
+<script>
+$(window).load(function () {
+$('div.news_container:last').addClass('ultima');
+$('div.ultima').removeClass('news_container');
+});
+</script>
+</head>
+<body>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40438775-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script><div class="gridContainer clearfix">
+<div id="TopNav">
+<div id="nav_under">
+  <h2><img src="img/logotop.png" width="191" height="186" />&nbsp;&nbsp;&nbsp;<br />
+  </h2>
+</div>
+<a href="https://www.facebook.com/asfaa.org" rel="external"><img src="img/facebook.png" width="50" height="40" alt="Facebook"/></a> &nbsp;<a href="noticias_rss.xml"><img src="img/rss.png" width="50" height="40" alt="RSS"/></a><p>&nbsp;</p>
+</div>
+<div id="LayoutDiv1"></div><div id="leftnav"><ul id='navaleft'>
+<li class='lival'><a href='#'>About ASFAA</a>
+    <ul>
+    <li class='naval'><a href='institutional.php?id=0'>About Us</a></li>
+    <li class='naval'><a href='institutional.php?id=1'>Statutes</a></li>
+    <li class='naval'><a href='institutional.php?id=2'>Presidents</a></li>
+    <li class='naval'><a href='institutional.php?id=3'>Board of Directors</a></li>
+    </ul></li>
+    <li class='lival'><a href='members.php'>Members</a>
+<li class='lival'><a href='news.php'>News</a>
+<li class='lival'><a href='calendar.php'>Events Calendar</a>
+<li class='lival'><a href='#'>Programs</a>
+    <ul>
+    <li class='naval'><a href='wwday.php'>World Walking Day</a></li>
+    <li class='naval'><a href='#'>World Challenge Day</a></li>
+    <li class='naval'><a href='#'>Others</a></li>
+    </ul></li>
+<li class='lival'><a href='#'>Galleries</a>
+<li class='lival'><a href='#'>Publications</a>
+    <ul>
+    <li class='naval'><a href='publications.php?id=2'>The ASFAA Journal</a></li>
+    <li class='naval'><a href='publications.php?id=1'>Newsletter</a></li>
+    </ul></li>
+</ul></div>
+<div id="main"><div class="espa1">
+  <p>
+    <h1>Bangladesh</h1><p><strong>Bangladesh Olympic Association </strong><br />
+Tel: 880-2-956-0369<br />
+Fax: 880-2-956-3304 <br />
+Address : National Sports Council Building, 62/3, Purona Paltan, Dhaka-1000, Bangladesh<br />
+E-mail : noc-ban@bdonline.com <br />
+<br />
+<strong>Bangladesh Sport For All Association </strong><br />
+Tel: 880-2-811-3476<br />
+Fax: 880-2-811-3476 <br />
+Address: Physical Education College, Satmosjid Road, Muhammadpur, Dhaka-1207, Bangladesh<br />
+E-mail: nipa61@yahoo.com </p></div></div>
+<div id="second">
+<div class="espa1">
+<h2>MEMBERS [A-I]</h2>
+    <ul>
+      <li class='mem'><a href='members.php?id=2'>Australia </a></li><li class='mem'><a href='members.php?id=1'>Bangladesh </a></li><li class='mem'><a href='members.php?id=3'>Cambodia </a></li><li class='mem'><a href='members.php?id=4'>China </a></li><li class='mem'><a href='members.php?id=25'>Chinese Taipei </a></li><li class='mem'><a href='members.php?id=6'>Hong Kong, China </a></li><li class='mem'><a href='members.php?id=7'>India </a></li><li class='mem'><a href='members.php?id=8'>Indonesia </a></li><li class='mem'><a href='members.php?id=9'>Iran </a></li><li class='mem'><a href='members.php?id=10'>Iraq </a></li><li class='mem'><a href='members.php?id=11'>Israel </a></li>    </ul>
+</div></div>
+  <div id="third"><div class="espa1">
+    <h2>MEMBERS [J-V] </h2>
+    <ul>
+      <li class='mem'><a href='members.php?id=12'>Japan </a></li><li class='mem'><a href='members.php?id=13'>Korea </a></li><li class='mem'><a href='members.php?id=14'>Macau, China </a></li><li class='mem'><a href='members.php?id=15'>Malaysia </a></li><li class='mem'><a href='members.php?id=19'>Pakistan </a></li><li class='mem'><a href='members.php?id=20'>Philippines </a></li><li class='mem'><a href='members.php?id=21'>Qatar </a></li><li class='mem'><a href='members.php?id=23'>Singapore </a></li><li class='mem'><a href='members.php?id=26'>Thailand </a></li><li class='mem'><a href='members.php?id=27'>Vietnam </a></li>    </ul>
+  </div></div>
+  <div id="footer">
+    <h2>ASFAA - ASIANIA SPORT FOR ALL ASSOCIATION</h2>
+<p><strong>SECRETARIAT</strong><br>
+Av. Dr. Rodrigo Rodrigues, No 818, Macau   <br />
+<a href="mailto:secretariat@asfaa.org" target="_blank">secretariat@asfaa.org</a> <br />
+Fax: +853 2834 3708  </p>
+<p>&nbsp;</p>  </div>
+</div>
+</body>
+</html>
